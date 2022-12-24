@@ -1,3 +1,5 @@
 export * from "./Header"
 export * from "./About"
 export * from "./Materials"
+export * from "./Contacts"
+export * from "./Footer"

@@ -1,38 +1,49 @@
 @import "../../styles/variables";
-.container{
+.container {
   margin: 0 auto;
   width: 95%;
 }
-.about{
+.about {
   margin-top: 20px;
   max-height: 800px;
   display: flex;
- border-radius: 20px;
- overflow: hidden;
-  
+  border-radius: 20px;
+  overflow: hidden;
 }
-.photo{
+.photo {
   width: 50%;
-  background-color:$primeColor ;
-  img{
+  background-color: $primeColor;
+  img {
     object-fit: contain;
     width: 100%;
     height: 100%;
   }
 }
-.aboutInfo{
+.aboutInfo {
   background-color: $supColor;
   width: 50%;
-  
-  color:$thirdColor;
+
+  color: $thirdColor;
   padding: 20px;
-  h2{
+  h2 {
     padding-top: 10%;
     text-align: center;
     font-size: 30px;
   }
-  p{
+  p {
     padding-top: 20%;
     font-size: 18px;
+    margin-bottom: 50px;
   }
+}
+.btn {
+  background-color: $primeColor;
+  width: 360px;
+  height: 60px;
+  font-size: 22px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 58px;
+  margin: 0 auto;
+  cursor: pointer;
 }

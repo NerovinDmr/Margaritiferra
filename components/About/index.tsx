@@ -12,6 +12,7 @@ export const About: React.FC = () => {
           height={300}
           src={"/images/photo.png"}
           alt={"photo"}
+          priority
         />
       </div>
       <div className={style.aboutInfo}>
@@ -24,6 +25,9 @@ export const About: React.FC = () => {
         the release of Letraset sheets containing Lorem Ipsum passages, and more
         recently with desktop publishing software like Aldus PageMaker including
         versions of Lorem Ipsum.</p>
+        <div className={style.btn}>
+          our works
+        </div>
       </div>
     </div>
     </div>

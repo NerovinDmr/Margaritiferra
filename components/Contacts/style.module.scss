@@ -1,0 +1,85 @@
+@import "../../styles/variables";
+
+
+.contacts{
+  margin-top: 20px;
+}
+
+.contactBlock{
+background-color: rgb(221, 239, 243);
+width: 95%;
+margin: 0 auto;
+display: flex;
+padding: 20px;
+justify-content: space-around;
+background-image: url("../../public/images/bg.png");
+background-position: 0% 112%;;
+background-repeat: no-repeat;
+background-size: 400px 350px;
+}
+.contactInfo{
+  display:  flex;
+  flex-direction: column;
+  color: #fff;
+  background-color: rgba(67, 5, 92, 0.425);
+  border-radius: 10px;
+  height: 100px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 21px;
+  h2{
+    font-size: 35px;
+  }
+  p{
+    margin-top: 10px;
+    font-size: 25px; 
+    text-align: center;
+  }
+}
+.contactForm{
+  background-color: rgb(233, 240, 240);
+  width: 400px;
+
+  padding: 20px;
+  border-radius: 20px;
+  border: 4px solid rgb(212, 230, 233);
+  form{
+    display:  flex;
+    flex-direction: column;
+    
+    label{
+      font-size: 20px;
+      font-weight: bolder;
+      margin:5px 0;
+    }
+    input{
+      width: 100%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: transparent;
+      border: 4px solid rgb(212, 230, 233);
+      color: black;
+    }
+    textarea{
+      width: 100%;
+      height: 90px;
+      resize:none;
+      border-radius: 10px;
+      border: 4px solid rgb(212, 230, 233);
+      padding: 7px;
+      margin-bottom: 15px;
+      background-color: transparent;
+    }
+  }
+  .btnSend{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(67, 5, 92, 0.425);
+    color:#fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+}

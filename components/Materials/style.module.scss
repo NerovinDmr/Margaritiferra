@@ -23,6 +23,10 @@
   flex-direction: column;
   align-items: center;
 }
+.materialItem:nth-child(even){
+.zoom{
+  order: 1;
+}}
 .materialItem {
   display: flex;
   align-items: center;

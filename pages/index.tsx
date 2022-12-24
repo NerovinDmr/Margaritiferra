@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import {About, Header, Materials} from '../components';
+import {About, Contacts, Footer, Header, Materials} from '../components';
 
 
 
@@ -9,6 +9,8 @@ const Home: NextPage = () => {
      <Header/>
       <About/>
      <Materials/>
+     <Contacts/>
+     <Footer/>
     </div>
   )
 }
